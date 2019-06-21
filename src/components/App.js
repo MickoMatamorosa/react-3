@@ -15,7 +15,6 @@ class App extends Component {
 
     this.state = {
       posts: [],
-      searchText: null,
     };
 
     this.updatePost = this.updatePost.bind(this);
